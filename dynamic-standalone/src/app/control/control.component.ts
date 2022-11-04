@@ -1,4 +1,3 @@
-import { NgSwitch, NgSwitchCase } from '@angular/common';
 import {
   Component,
   Input,
@@ -15,7 +14,6 @@ import { componentLookup } from './control.constants';
   templateUrl: './control.component.html',
   styleUrls: ['./control.component.scss'],
   standalone: true,
-  imports: [NgSwitch, NgSwitchCase],
 })
 export class ControlComponent implements OnInit {
   @Input() control!: ControlBase;
